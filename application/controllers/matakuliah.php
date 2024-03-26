@@ -12,7 +12,7 @@ class Matakuliah extends CI_Controller
             'nama' => $this->input->post('nama'), 
             'sks' => $this->input->post('sks') 
         ]; 
-        $this->load->view('view--matakuliah', $data); 
+        $this->load->view('view-data-matakuliah', $data); 
     } 
 }
         
