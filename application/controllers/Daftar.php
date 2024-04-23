@@ -8,9 +8,10 @@ class Daftar extends CI_Controller
     public function cetak() 
     { 
         $this->form_validation->set_rules('nim', 'nomor nim', 
-        'required|min_length[3]', [ 
+        'required|min_length[3]|numeric', [ 
             'required' => 'nim Harus diisi', 
-            'min_lenght' => 'nim terlalu pendek' 
+            'min_lenght' => 'nim terlalu pendek',
+            'numeric' => 'Harus angka'
         ]); 
         
         $this->form_validation->set_rules('nama', 'Nama lengkap', 
