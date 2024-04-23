@@ -1,7 +1,7 @@
 <html> 
     
 <head> 
-    <title>Tampil Data Matakuliah</title> 
+    <title>Tampil Daftar Data</title> 
 </head>
 
 <body> 
@@ -9,7 +9,7 @@
         <table> 
             <tr> 
                 <th colspan="3"> 
-                    Tampil Data Mata Kuliah 
+                    Tampil Daftar Data
                 </th> 
             </tr> 
             <tr> 
@@ -18,28 +18,42 @@
                 </td> 
             </tr> 
             <tr> 
-                <th>Kode MTK</th> 
+                <th>NIM</th> 
                 <th>:</th> 
                 <td> 
-                    <?= $kode; ?> 
+                    <?= $nim; ?> 
                 </td> 
             </tr> 
             <tr> 
-                <td>Nama MTK</td> 
+                <td>Nama</td> 
                 <td>:</td> 
                     <td> <?= $nama; ?> 
                 </td> 
             </tr> 
             <tr> 
-                <td>SKS</td> 
+                <td>Tanggal Lahir</td> 
                 <td>:</td> 
                 <td> 
-                    <?= $sks; ?> 
+                    <?= $tanggal_lahir; ?> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td>Tempat Lahir</td> 
+                <td>:</td> 
+                <td> 
+                    <?= $tempat_lahir; ?> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td>alamat</td> 
+                <td>:</td> 
+                <td> 
+                    <?= $alamat; ?> 
                 </td> 
             </tr> 
             <tr> 
                 <td colspan="3" align="center"> 
-                    <a href="<?= base_url('Matakuliah'); 
+                    <a href="<?= base_url('Daftar'); 
     ?>">Kembali</a> 
         </td> 
     </tr> 
