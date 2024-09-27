@@ -27,7 +27,9 @@
                                     <?= form_error('password2', '<small class="text-danger pl-3">', '</small>'); ?>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block">Daftar Menjadi Member</button>
+                            <button type="submit" class="btn btn-primary btn-user btn-block">
+                                Daftar Menjadi Member
+                            </button>
                         </form>
                         <hr>
                         <div class="text-center">
